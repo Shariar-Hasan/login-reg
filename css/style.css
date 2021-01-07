@@ -1,0 +1,137 @@
+body{
+    background-image: url("../images/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+/* index.html part start */
+
+a{
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 650px;
+    top: 350px;
+    margin: 10px;
+}
+a h3{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.l{
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 12px;
+    padding: 10px 20px;
+    box-shadow: 5px 10px 40px cyan;
+    transition: all .4s ease-in-out;
+}
+.l:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid cyan;
+    border-radius: 12px;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 40px rgb(0, 0, 0);
+}
+
+.r{
+    background-color: black;
+    color: white;
+    border: 2px solid cyan;
+    border-radius: 12px;
+    padding: 10px 20px;
+    box-shadow: 5px 10px 40px rgb(0, 0, 0);
+    transition: all .4s ease-in-out;
+}
+.r:hover{
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px 20px;
+    box-shadow: 5px 10px 40px cyan;
+}
+
+/* index.html part end */
+/* ---------------------------------- */
+/* reg.html part start */
+
+.form{
+    width: 30%;
+    background-image: linear-gradient(9deg, transparent,rgba(0, 255, 255, 0.63), rgb(24, 219, 219),rgba(0, 255, 255, 0.644),transparent);
+    padding:100px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 90px;
+    transition: all 1s ease;
+}
+.form:hover{
+    background-color: black;
+}
+
+.form-control{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px;
+    margin: 8px 0;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    transition: all .4s ease;
+    border-radius: 30px;
+}
+.form-control:focus{
+    background-color: rgba(0, 0, 0, 0.486);
+    border: 1px solid white;
+}
+.form-control:focus[placeholder]{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: all .4s ease;
+}
+.bd{
+    width: 50%;
+    padding: 16px;
+    margin-left: 33px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+label{
+    color: rgb(0, 0, 0);
+    font-family:  sans-serif;
+}
+.form-control[placeholder]{
+    color: rgb(5, 5, 5);
+    text-shadow: 3px 3px 9px white;
+}
+.button{
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 13px 70px;
+    box-shadow: 5px 10px 40px cyan;
+    transition: all .4s ease-in-out;
+}
+.button[value]{
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+.button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid cyan;
+    box-shadow: 5px 10px 40px rgb(0, 0, 0);
+}
+/* reg.html part end */
+/* ---------------------------------- */
+/* login.html part start */
+
+
+/* login.html part end */
